@@ -1,0 +1,12 @@
+# python
+
+a.split('\t')
+a.split('分隔符号')
+
+***split（）分割字符串返回的是列表
+
+利用re模块分割含有多种分割符的字符串：
+import re
+a='Beautiful, is; better*than\nugly'
+# 四个分隔符为：,  ;  *  \n
+x= re.split(',|; |\*|\n',a)
