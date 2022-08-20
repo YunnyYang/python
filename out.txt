@@ -1,0 +1,5 @@
+# python
+data = [1,2,3,454,14]
+f = open('out.txt','w')
+    for i in data:
+    f.write(str(i)+'\n')
